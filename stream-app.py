@@ -1,5 +1,8 @@
-import streamlit as st
+
+
 import openai
+import streamlit as st
+
 openai.api_key =st.secrets["api_key"]
 
 st.title("Cute cat")
